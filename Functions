@@ -34,14 +34,14 @@ local num4=$2
 # Sum values
 local sum=$((num3+num4))
 
- 		# Pass values back with echo
- 		echo $sum
- 	}
- 	
- 	num1=5
- 	num2=6
- 	
- 	# You pass atributes by separating them with a space
- 	# Surround function call with $() to get the return value
- 	sum=$(getSum num1 num2)
- 	echo "The sum is $sum"
+# Pass values back with echo
+echo $sum
+}
+
+num1=5
+num2=6
+
+# You pass atributes by separating them with a space
+# Surround function call with $() to get the return value
+sum=$(getSum num1 num2)
+echo "The sum is $sum"
